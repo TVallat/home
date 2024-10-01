@@ -4,12 +4,12 @@ import './App.scss';
 //Importation des composants.
 import Header from './Components/Header/Header.jsx';
 import Footer from './Components/Footer/Footer.jsx';
-import Home from './Components/Home/Home.jsx';
-import Booki from './Components/Projets/Booki/Booki.jsx';
-import Kasa from './Components/Projets/Kasa/Kasa.jsx';
-import Bluel from './Components/Projets/Bluel/Bluel.jsx';
-import Carducci from './Components/Projets/Carducci/Carducci.jsx';
-import Grimoire from './Components/Projets/Grimoire/Grimoire.jsx';
+import Home from './Components/Projets/Home/Home.jsx';
+import About from './Components/Projets/About/About.jsx';
+import Portfolio from './Components/Projets/Portfolio/Portfolio.jsx';
+import Services from './Components/Projets/Services/Services.jsx';
+import Resume from './Components/Projets/Resume/Resume.jsx';
+import Contact from './Components/Projets/Contact/Contact.jsx';
 
 
 function App() {
@@ -19,11 +19,11 @@ function App() {
             <main>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path='/Booki' element={<Booki />} />
-                    <Route path='/Kasa' element={<Kasa />} />
-                    <Route path='/Bluel' element={<Bluel />} />
-                    <Route path='/Carducci' element={<Carducci />} />
-                    <Route path='/Grimoire' element={<Grimoire />} />
+                    <Route path='/about' element={<About />} />
+                    <Route path='/portfolio' element={<Portfolio />} />
+                    <Route path='/services' element={<Services />} />
+                    <Route path='/resume' element={<Resume />} />
+                    <Route path='/contact' element={<Contact />} />
                 </Routes>
             </main>
             <Footer />
