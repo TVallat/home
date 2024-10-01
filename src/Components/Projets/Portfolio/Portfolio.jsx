@@ -1,4 +1,4 @@
-import "./Booki.scss";
+import "./Portfolio.scss";
 
 const Booki = () => {
     return (

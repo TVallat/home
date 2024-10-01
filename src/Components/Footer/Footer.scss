@@ -1,4 +1,9 @@
+@import '../../variables';
+
+footer {
+    margin-top: $gap-size*2;
+}
+
 footer p {
-    color: black;
     text-align: center;
 }

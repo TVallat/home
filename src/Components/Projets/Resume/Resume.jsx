@@ -1,4 +1,4 @@
-import "./Grimoire.scss";
+import "./Resume.scss";
 
 const Grimoire = () => {
     return (

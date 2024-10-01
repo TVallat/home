@@ -1,10 +1,39 @@
-header p {
-    color: black;
-    text-align: center;
-}
+@import '../../variables';
 
-header nav {
+header {
+    margin-top: $gap-size;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: $gap-size*2;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: $gap-size;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: $yellow-text;
+}
+
+.nav-link:hover {
+    color: $purple-text;
+}
+
+.active {
+    color: $blue-text;
+}
+
+header .infos-container {
+    display: flex;
+    flex-direction: row;
+    gap: $gap-size/2;
+}
+
+p {
+    margin: 0;
 }

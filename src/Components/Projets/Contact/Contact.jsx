@@ -1,4 +1,4 @@
-import "./Kasa.scss";
+import "./Contact.scss";
 
 const Kasa = () => {
     return (

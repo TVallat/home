@@ -1,4 +1,4 @@
-import "./Bluel.scss";
+import "./About.scss";
 
 const Bluel = () => {
     return (
