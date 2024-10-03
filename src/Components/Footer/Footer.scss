@@ -2,8 +2,22 @@
 
 footer {
     margin-top: $gap-size*2;
+    margin-bottom: $gap-size;
 }
 
 footer p {
     text-align: center;
+}
+
+.foot-nav-link {
+    text-decoration: none;
+    color: $yellow-text;
+}
+
+.foot-nav-link:hover {
+    color: $purple-text;
+}
+
+.active {
+    color: $blue-text;
 }

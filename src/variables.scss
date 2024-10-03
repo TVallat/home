@@ -1,5 +1,6 @@
 $text-size: 18px;
-$title-size: 32px;
+$medium-size: 30px;
+$title-size: 52px;
 $gap-size: 30px;
 $yellow-text: #f0e68c;
 $purple-text: #a07dc9;
@@ -7,4 +8,8 @@ $blue-text: #00bcd4;
 
 .purple-text {
     color: $purple-text;
+}
+
+.yellow-text {
+    color: $yellow-text;
 }

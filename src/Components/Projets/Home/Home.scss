@@ -1,3 +1,55 @@
-p {
+@import '../../../variables';
+
+section {
+    margin-bottom: $gap-size*2;
+}
+
+p, h1, h2  {
     text-align: center;
+}
+
+p {
+    font-size: 22px;
+}
+
+h1, h2 {
+    font-size: $title-size;
+}
+
+.medium-size {
+    font-size: $medium-size;
+}
+
+.banner-container {
+    width: auto;
+    height: 500px;
+}
+
+.banner-image {
+    width: 100%;
+    object-fit: cover;
+    height: inherit;
+    border-radius: 20px;
+}
+
+.upper-infos {
+
+    margin-bottom: $gap-size;
+}
+.lower-infos  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.left-infos, .right-infos {
+    padding-top: $gap-size;
+    width: 50%;
+}
+
+.left-infos {
+    border-right: 1px solid grey;
 }
