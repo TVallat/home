@@ -2,7 +2,7 @@ import "./Resume.scss";
 
 const Grimoire = () => {
     return (
-        <section>
+        <section className="resume">
             <div>
                 <p>Mon Petit Grimoire</p>
             </div>

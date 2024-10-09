@@ -2,7 +2,7 @@ import "./Services.scss";
 
 const Carducci = () => {
     return (
-        <section>
+        <section className="services">
             <div>
                 <p>Nina Carducci</p>
             </div>

@@ -2,7 +2,7 @@ import "./Portfolio.scss";
 
 const Booki = () => {
     return (
-        <section>
+        <section className="portfolio">
             <div>
                 <p>Booki</p>
             </div>

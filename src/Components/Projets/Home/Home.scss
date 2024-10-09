@@ -4,12 +4,17 @@ section {
     margin-bottom: $gap-size*2;
 }
 
-p, h1, h2  {
-    text-align: center;
-}
-
 p {
     font-size: 22px;
+    margin:0;
+}
+
+no-margin {
+    margin:0;
+}
+
+p, h1, h2 {
+    text-align: center;
 }
 
 h1, h2 {
@@ -36,7 +41,13 @@ h1, h2 {
 
     margin-bottom: $gap-size;
 }
-.lower-infos  {
+
+.lower-infos {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.text-infos  {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -50,6 +61,39 @@ h1, h2 {
     width: 50%;
 }
 
+.left-infos p, .right-infos p {
+    text-align: left;
+}
+
+.left-infos p {
+    font-size: 30px;
+}
+.right-infos {
+    margin-left: 30px;
+}
+
 .left-infos {
     border-right: 1px solid grey;
+    padding-right: $gap-size;
+    padding-bottom: $gap-size;
+}
+
+.redirect-button {
+    border: none;
+    border-radius:10px;
+    padding: 20px 50px;
+    background-color:$blue-text;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.redirect-button:hover {
+    background-color: $purple-text;
+}
+
+.redirect-button:active {
+    background-color: $yellow-text;
 }
