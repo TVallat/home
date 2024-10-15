@@ -1,7 +1,7 @@
 @import '../../../variables';
 
 section {
-    margin-bottom: $gap-size*2;
+    margin-bottom: $gap-size*3;
 }
 
 p {
@@ -9,12 +9,34 @@ p {
     margin:0;
 }
 
-no-margin {
-    margin:0;
-}
-
 p, h1, h2 {
     text-align: center;
+}
+
+h1 {
+    color:$purple-text;
+}
+
+.double-slash:before {
+    content:'// ';
+}
+
+h1:before {
+    content:'{ ';
+    color:white;
+}
+
+h1:after {
+    content: ' }';
+    color: white;
+}
+
+h2:before {
+    content: '<';
+}
+
+h2:after {
+    content: '>';
 }
 
 h1, h2 {
@@ -46,12 +68,11 @@ h1, h2 {
     display: flex;
     flex-direction:column;
     align-items:center;
+    gap: $gap-size*2;
 }
-.text-infos  {
+.text-infos, .portfolio-infos {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-top: 1px solid grey;
+    justify-content: center;
     width: 75%;
     margin: 0 auto;
 }
@@ -96,4 +117,12 @@ h1, h2 {
 
 .redirect-button:active {
     background-color: $yellow-text;
+}
+
+.redirect-button:before {
+    content: '{ ';
+}
+
+.redirect-button:after {
+    content: ' }';
 }

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.scss';
 
+
 //Importation des composants.
 import Header from './Components/Header/Header.jsx';
 import Footer from './Components/Footer/Footer.jsx';
@@ -21,7 +22,6 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path='/about' element={<About />} />
                     <Route path='/portfolio' element={<Portfolio />} />
-                    <Route path='/services' element={<Services />} />
                     <Route path='/resume' element={<Resume />} />
                     <Route path='/contact' element={<Contact />} />
                 </Routes>

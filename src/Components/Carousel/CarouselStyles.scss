@@ -1,0 +1,81 @@
+.container {
+    width:100%;
+}
+
+.carousel {
+    position: relative;
+    width: 100%; // Utilisez la largeur totale
+    height: 615px; // Hauteur fixe pour le conteneur du carousel
+    overflow: hidden; // Empêche le débordement
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; // Ajustez la valeur selon vos besoins
+}
+
+.carousel-container {
+    display: flex;
+    height: 100%; // Hauteur du conteneur
+    position: relative; // Position relative pour les éléments enfant
+}
+
+.carousel-slide {
+    min-width: 100%; // Chaque diapositive prend toute la largeur
+    max-height: 100%; // Empêche le débordement
+    position: absolute; // Position absolue pour permettre le fondu
+    top: 0; // Aligne en haut
+    left: 0; // Aligne à gauche
+    transition: opacity 1s ease-in-out; // Transition pour le fondu
+}
+
+.carousel-slide img {
+    max-width: 100%; // Empêche l'image de déborder
+    height: auto; // Conserve le ratio d'aspect
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: #1e1e1e;
+    font-size: 6rem;
+    padding: 20px; // Ajustez la taille selon vos besoins
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.image-counter {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-shadow: /* Ombres pour créer une bordure */
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    font-family: 'Arial', sans-serif;
+}
+
+.image-description-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.image-description {
+    font-size: 22px;
+    color: white;
+}
