@@ -1,24 +1,26 @@
-import "./Contact.scss";
-
-const Kasa = () => {
+const ContactPage = () => {
     return (
         <section className="contact">
+            <div className="upper-infos">
+                <p className="spacing">/</p>
+                <h2>contact</h2>
+            </div>
             <div className="formulaire">
                 <form action="https://formspree.io/f/your-form-id" method="POST">
-                    <label htmlFor="name">Nom :</label>
+                    <label htmlFor="name">_nom* :</label>
                     <input type="text" id="name" name="name" required />
 
-                    <label htmlFor="email">E-mail :</label>
+                    <label htmlFor="email">_e-mail* :</label>
                     <input type="email" id="email" name="email" required />
 
-                    <label htmlFor="message">Message :</label>
+                    <label htmlFor="message">_message* :</label>
                     <textarea id="message" name="message" required></textarea>
 
-                    <button type="submit">Envoyer</button>
+                    <button className="redirect-button" type="submit">envoyer</button>
                 </form>
             </div>
         </section>
     );
 }
 
-export default Kasa;
+export default ContactPage;

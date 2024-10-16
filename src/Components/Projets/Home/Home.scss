@@ -60,8 +60,24 @@ h1, h2 {
 }
 
 .upper-infos {
-
     margin-bottom: $gap-size;
+}
+
+.upper-infos p {
+    color: $yellow-text;
+}
+
+.upper-infos .spacing {
+    color: $purple-text;
+    font-size: $medium-size;
+}
+
+.upper-infos .spacing:before {
+    content: '{ ';
+}
+
+.upper-infos .spacing:after {
+    content: ' }';
 }
 
 .lower-infos {
@@ -75,6 +91,10 @@ h1, h2 {
     justify-content: center;
     width: 75%;
     margin: 0 auto;
+}
+
+.about-infos {
+    border-top: 1px solid grey;
 }
 
 .left-infos, .right-infos {

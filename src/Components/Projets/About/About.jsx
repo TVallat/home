@@ -1,15 +1,14 @@
 import "./About.scss";
-import { useNavigate } from 'react-router-dom';
+import Contact from "../../Contact/Contact.jsx";
 
 
-const Bluel = () => {
-    const navigate = useNavigate();
 
+const AboutPage = () => {
     return (
+        <div>
         <section>
             <div className="upper-infos">
-                <p className="purple-text medium-size"> {'{'}/{'}'}</p>
-                <h2>about_me</h2>
+                <h1>about_me</h1>
                 <p className="yellow-text">...recemment diplome de la formation developpeur web chez Openclassroom</p>
                 <p className="yellow-text">je suis a la recherche d'un premier emploi</p>
                 <p className="yellow-text">dans le secteur</p>
@@ -34,8 +33,10 @@ const Bluel = () => {
                     </div>
                 </div>
             </div>
-        </section>
+            </section>
+            <Contact />
+        </div>
     );
 }
 
-export default Bluel;
+export default AboutPage;

@@ -1,6 +1,6 @@
 import "./Resume.scss";
 
-const Grimoire = () => {
+const Resume = () => {
     return (
         <section className="resume">
             <div>
@@ -10,4 +10,4 @@ const Grimoire = () => {
     );
 }
 
-export default Grimoire;
+export default Resume;

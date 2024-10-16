@@ -1,6 +1,6 @@
 import "./Portfolio.scss";
 
-const Booki = () => {
+const Portfolio = () => {
     return (
         <section className="portfolio">
             <div>
@@ -10,4 +10,4 @@ const Booki = () => {
     );
 }
 
-export default Booki;
+export default Portfolio;

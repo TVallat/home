@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import bannerImg from '../../../Images/les-cevennes.webp';
 import portfolioSlidesData from "../../Carousel/Home-carousel";
 import CarouselFade from "../../Carousel/Carousel";
+import Contact from "../../Contact/Contact.jsx";
 
 
 const Home = () => {
@@ -22,13 +23,13 @@ const Home = () => {
             </section>
             <section>
                 <div className="upper-infos">
-                    <p className="purple-text medium-size"> {'{'}/{'}'}</p>
+                    <p className="spacing">/</p>
                     <h2>about_me</h2>
-                    <p className="yellow-text">...recemment diplome de la formation developpeur web chez Openclassroom</p>
-                    <p className="yellow-text">je suis a la recherche d'un premier emploi</p>
-                    <p className="yellow-text">dans le secteur</p>
+                    <p>...recemment diplome de la formation developpeur web chez Openclassroom</p>
+                    <p>je suis a la recherche d'un premier emploi</p>
+                    <p>dans le secteur</p>
                 </div>
-                <div className="lower-infos">
+                <div className="lower-infos about-infos">
                     <div className="text-infos">
                         <div className="left-infos">
                             <p>...Developpeur web <span class="purple-text">fullstack</span> debutant avec une connaissance solide de
@@ -52,10 +53,10 @@ const Home = () => {
             </section>
             <section>
                 <div className="upper-infos">
-                    <p className="purple-text medium-size"> {'('} ! {')'}</p>
+                    <p className="spacing">!</p>
                     <h2>portfolio</h2>
-                    <p className="yellow-text">...voici un apercu des projets que j'ai pu realiser</p>
-                    <p className="yellow-text">au cours de ma formation</p>
+                    <p>...voici un apercu des projets que j'ai pu realiser</p>
+                    <p>au cours de ma formation</p>
                 </div>
                 <div className="lower-infos">
                     <div className="portfolio-infos">
@@ -64,6 +65,7 @@ const Home = () => {
                     <button className="redirect-button" onClick={() => navigate('/portfolio')}>plus d'infos</button>
                 </div>
             </section>
+            <Contact />
         </div>
     );
 }
