@@ -34,10 +34,43 @@
 
 .right-infos {
     margin-left: 30px;
+    padding-bottom : $gap-size;
 }
 
 .left-infos {
     border-right: 1px solid grey;
     padding-right: $gap-size;
-    padding-bottom: $gap-size;
+}
+
+.about-infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: $gap-size*2;
+}
+
+.about-infos h3 {
+    color: white;
+    font-size: $medium-size;
+}
+
+.about-infos .left-infos {
+    color: $yellow-text;
+}
+
+.about-infos p {
+    font-size: 22px;
+}
+
+.about-infos .spacing {
+    color: $purple-text;
+    font-size: $medium-size;
+}
+
+.about-infos .spacing:before {
+    content: '{ ';
+}
+
+.about-infos .spacing:after {
+    content: ' }';
 }

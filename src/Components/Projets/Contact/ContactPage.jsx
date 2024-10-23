@@ -5,7 +5,7 @@ const ContactPage = () => {
     return (
         <section className="contact">
             <div className="upper-infos">
-                <h1>contact</h1>
+                <h1>Contact</h1>
                 <p>...veuillez bien me contacter par le formulaire ci-dessous :</p>
             </div>
             <div className="formulaire">

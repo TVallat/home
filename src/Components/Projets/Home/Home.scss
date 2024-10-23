@@ -86,14 +86,11 @@ h1, h2 {
     align-items:center;
     gap: $gap-size*2;
 }
-.text-infos, .portfolio-infos {
+.text-infos {
     display: flex;
     justify-content: center;
     width: 75%;
     margin: 0 auto;
-}
-
-.about-infos {
     border-top: 1px solid grey;
 }
 
@@ -111,12 +108,17 @@ h1, h2 {
 }
 .right-infos {
     margin-left: 30px;
+    color: $yellow-text;
 }
 
 .left-infos {
     border-right: 1px solid grey;
     padding-right: $gap-size;
     padding-bottom: $gap-size;
+}
+
+span {
+    color:$purple-text;
 }
 
 .redirect-button {

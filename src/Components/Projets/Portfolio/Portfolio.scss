@@ -1,3 +1,51 @@
-.portfolio p {
-    text-align: center;
+@import '../../../variables';
+
+.portfolio-infos {
+    height: 500px;
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.portfolio .right-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolio .right-infos p {
+    margin-bottom: $gap-size;
+}
+
+.portfolio .lower-infos {
+    gap: 0;
+}
+.image-left {
+    padding-top: $gap-size;
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    border-right: 1px solid grey;
+    padding-right: $gap-size;
+    margin-bottom: 20px;
+}
+
+.portfolio h2 {
+    margin-top: $gap-size;
+    margin-bottom: $gap-size;
+}
+
+.image-left img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.image-left img:hover {
+    cursor: pointer;
+}
+
+.last {
+    margin-bottom: $gap-size*2;
 }

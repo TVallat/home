@@ -1,3 +1,67 @@
-.resume p {
-    text-align: center;
+@import '../../../variables';
+
+.resume-infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: $gap-size*2;
+}
+
+.resume-infos h3 {
+    color: white;
+    font-size: $medium-size;
+}
+
+.resume-infos .left-infos {
+    color: $yellow-text;
+    border-right: 1px solid grey;
+    padding-right: $gap-size;
+}
+
+.resume-infos .exp-infos h3 {
+    font-family: Arial, sans-serif;
+}
+
+.resume-infos .exp-infos h3:before {
+    content:"{ ";
+}
+
+.resume-infos .exp-infos h3:after {
+    content: " }";
+}
+
+.resume-infos .right-infos h3:before {
+    content: "// ";
+    color: white;
+}
+
+.resume-infos .right-infos h3 {
+    color: $purple-text;
+}
+
+.resume-infos p {
+    font-size: 22px;
+}
+
+.exp-infos, .right-infos {
+    padding-top: $gap-size;
+    width: 50%;
+}
+
+.exp-infos p, .right-infos p {
+    text-align: left;
+}
+
+.exp-infos p {
+    font-size: 30px;
+}
+
+.right-infos {
+    margin-left: 30px;
+    padding-bottom: $gap-size;
+}
+
+.exp-infos {
+    border-right: 1px solid grey;
+    padding-right: $gap-size;
 }
