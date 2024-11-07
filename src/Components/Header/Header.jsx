@@ -16,7 +16,7 @@ const Header = () => {
         });
 
         switch (location.pathname) {
-            case '/':
+            case '/home':
                 navLinks[0].classList.add('active');
                 break;
             case '/about':

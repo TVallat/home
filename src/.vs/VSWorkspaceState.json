@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Components",
+    "\\Components\\Footer",
+    "\\Components\\Header"
   ],
+  "SelectedNode": "\\Components\\Footer\\Footer.jsx",
   "PreviewInSolutionExplorer": false
 }
