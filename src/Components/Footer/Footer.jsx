@@ -41,7 +41,7 @@ const Footer = () => {
     return (
         <footer>
             <nav>
-                <Link className="foot-nav-link" to="/">_accueil</Link>
+                <Link className="foot-nav-link" to="/home">_accueil</Link>
                 <Link className="foot-nav-link" to="/about">_a_propos</Link>
                 <Link className="foot-nav-link" to="/portfolio">_portfolio</Link>
                 <Link className="foot-nav-link" to="/services">_services</Link>

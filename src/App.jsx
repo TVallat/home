@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.scss';
 
 
@@ -18,7 +18,7 @@ function App() {
             <Header />
             <main>
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/home" element={<Home />} />
                     <Route path='/about' element={<About />} />
                     <Route path='/portfolio' element={<Portfolio />} />
                     <Route path='/resume' element={<Resume />} />
