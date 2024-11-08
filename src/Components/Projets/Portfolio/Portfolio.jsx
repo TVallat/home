@@ -18,9 +18,9 @@ const Portfolio = () => {
             <div className="lower-infos">
                 <h2>Booki</h2>
                 <div className="portfolio-infos">
-                    <div className="image-left">
+                    <a href="https://github.com/TVallat/Booki" className="image-left">
                         <img src={booki} alt="Le site hôtelier Booki" />
-                    </div>
+                    </a>
                     <div className="right-infos">
                         <p>...Creation du <span>Front-End</span> de la page d'accueil d'une agence de voyage avec <span>HTML</span> et <span>CSS</span>.</p>
                         <p>Respect des <span>maquettes</span>, des <span>specifications</span> et des <span>contraintes techniques</span>.</p>
@@ -31,9 +31,9 @@ const Portfolio = () => {
             <div className="lower-infos">
                 <h2>Sophie Bluel</h2>
                 <div className="portfolio-infos">
-                    <div className="image-left">
-                        <img href="#" src={bluelHome} alt="Sophie Bluel, un site pour une architecte d\'interieur."/>
-                    </div>
+                    <a href="https://github.com/TVallat/Portfolio-Sophie-Bluel" className="image-left">
+                        <img src={bluelHome} alt="Sophie Bluel, un site pour une architecte d\'interieur."/>
+                    </a>
                     <div className="right-infos yellow-text">
                         <p>...Creation <span>Front-End</span> d'une page web dynamique presentant les traveaux d'une architecte d'interieur avec <span>JavaScript</span>.</p>
                         <p>Gestion des <span>evenements utilisateurs</span>.</p>
@@ -45,9 +45,9 @@ const Portfolio = () => {
             <div className="lower-infos">
                 <h2>Nina Carducci Photographie</h2>
                 <div className="portfolio-infos">
-                    <div className="image-left">
-                        <img href="#" src={carducciHome} alt="Un site présentant le portfolio de la Photographe Nina Carducci" />
-                    </div>
+                    <a href="https://github.com/TVallat/Nina-Carducci" className="image-left">
+                        <img src={carducciHome} alt="Un site présentant le portfolio de la Photographe Nina Carducci" />
+                    </a>
                     <div className="right-infos yellow-text">
                         <p>...Amelioration des <span>performances</span> et de l'<span>accessibilite</span> d'un site de photographe.</p>
                         <p>Realisation d'<span>audits</span>.</p>
@@ -60,9 +60,9 @@ const Portfolio = () => {
             <div className="lower-infos">
                 <h2>Kasa</h2>
                 <div className="portfolio-infos">
-                    <div className="image-left">
-                        <img href="#" src={kasaHome} alt="Kasa, un site hôtelier avec diverses chambres d\'hôte" />
-                    </div>
+                    <a href="https://github.com/TVallat/Kasa" className="image-left">
+                        <img src={kasaHome} alt="Kasa, un site hôtelier avec diverses chambres d\'hôte" />
+                    </a>
                     <div className="right-infos yellow-text">
                         <p>...Creation d'une application web <span>Front-End</span> de location immobiliere avec <span>React</span> et <span>React-router</span></p>
                         <p>Utilisation de <span>Node.js</span> et de <span>SASS</span>.</p>
@@ -74,9 +74,9 @@ const Portfolio = () => {
             <div className="lower-infos last">
                 <h2>Mon Vieux Grimoire</h2>
                 <div className="portfolio-infos">
-                    <div className="image-left">
-                        <img href="#" src={grimoireHome} alt="Un site de notation de livres où sont référencés plusieurs ouvrages" />
-                    </div>
+                    <a href="https://github.com/TVallat/Mon-Vieux-Grimoire" className="image-left">
+                        <img src={grimoireHome} alt="Un site de notation de livres où sont référencés plusieurs ouvrages" />
+                    </a>
                     <div className="right-infos yellow-text">
                         <p>...Creation du <span>Back-End</span> d'un site de notation de livres.</p>
                         <p>Utilisation de <span>Node.js</span>, <span>Express</span> et <span>MongoDB</span >.</p>
