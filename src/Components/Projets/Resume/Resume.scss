@@ -40,7 +40,7 @@
 }
 
 .resume-infos p {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .exp-infos, .right-infos {
@@ -53,15 +53,30 @@
 }
 
 .exp-infos p {
-    font-size: 30px;
+    font-size: 1.875rem; //30px
 }
 
 .right-infos {
-    margin-left: 30px;
+    margin-left: $gap-size;
     padding-bottom: $gap-size;
 }
 
 .exp-infos {
     border-right: 1px solid grey;
     padding-right: $gap-size;
+}
+
+@media (max-width: 1024px) {
+
+    .resume-infos p {
+        font-size: $text-size;
+    }
+
+    .exp-infos p {
+        font-size: $text-size;
+    }
+
+    .resume-infos h3 {
+        font-size: $medium-size;
+    }
 }

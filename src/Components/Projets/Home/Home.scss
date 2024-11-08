@@ -104,10 +104,10 @@ h1, h2 {
 }
 
 .left-infos p {
-    font-size: 30px;
+    font-size: 1.875rem; // 30 px
 }
 .right-infos {
-    margin-left: 30px;
+    margin-left: $gap-size;
     color: $yellow-text;
 }
 
@@ -123,10 +123,10 @@ span {
 
 .redirect-button {
     border: none;
-    border-radius:10px;
+    border-radius: 10px;
     padding: 20px 50px;
-    background-color:$blue-text;
-    font-size: 18px;
+    background-color: $blue-text;
+    font-size: 1.125rem;
     color: white;
     font-weight: 700;
     cursor: pointer;
@@ -147,4 +147,34 @@ span {
 
 .redirect-button:after {
     content: ' }';
+}
+
+@media (max-width: 1024px) {
+
+    .banner-container {
+        height: 250px;
+    }
+
+    p {
+        font-size: $text-size;
+    }
+
+    .left-infos p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .upper-infos p {
+        font-size: 18px;
+    }
+
+    .banner-container {
+        height: 200px;
+    }
+
+    .text-infos {
+        width: 100%;
+    }
 }

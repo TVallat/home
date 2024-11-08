@@ -4,17 +4,17 @@
 
 .carousel {
     position: relative;
-    width: 100%; // Utilisez la largeur totale
-    height: 615px; // Hauteur fixe pour le conteneur du carousel
+    width: 100%;
+    height: 615px; // Hauteur fixe du conteneur
     overflow: hidden; // Empêche le débordement
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; // Ajustez la valeur selon vos besoins
+    margin-bottom: 20px;
 }
 
 .carousel-container {
     display: flex;
-    height: 100%; // Hauteur du conteneur
+    height: 100%;
     position: relative; // Position relative pour les éléments enfant
 }
 
@@ -76,6 +76,14 @@
 }
 
 .image-description {
-    font-size: 22px;
+    font-size: 1.375rem; //22 px
     color: white;
+}
+
+@media (max-width: 768px) {
+
+    .carousel {
+        height: 300px;
+    }
+
 }

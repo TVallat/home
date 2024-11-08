@@ -49,3 +49,24 @@
 .last {
     margin-bottom: $gap-size*2;
 }
+
+@media (max-width: 1024px) {
+
+    .portfolio-infos {
+        height: auto;
+        max-height: 400px;
+    }
+
+    .image-left {
+        display: grid;
+        place-items: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .portfolio-infos {
+        width: 100%;
+    }
+}

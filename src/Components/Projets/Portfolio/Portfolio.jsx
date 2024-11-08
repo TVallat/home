@@ -19,7 +19,7 @@ const Portfolio = () => {
                 <h2>Booki</h2>
                 <div className="portfolio-infos">
                     <div className="image-left">
-                        <img href="https://tvallat.github.io/Booki/" src={booki} alt="Le site hôtelier Booki" />
+                        <img src={booki} alt="Le site hôtelier Booki" />
                     </div>
                     <div className="right-infos">
                         <p>...Creation du <span>Front-End</span> de la page d'accueil d'une agence de voyage avec <span>HTML</span> et <span>CSS</span>.</p>

@@ -29,12 +29,12 @@
 }
 
 .left-infos p {
-    font-size: 30px;
+    font-size: 1.875rem; // 30px
 }
 
 .right-infos {
-    margin-left: 30px;
-    padding-bottom : $gap-size;
+    margin-left: $gap-size;
+    padding-bottom: $gap-size;
 }
 
 .left-infos {
@@ -59,7 +59,7 @@
 }
 
 .about-infos p {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .about-infos .spacing {
@@ -73,4 +73,38 @@
 
 .about-infos .spacing:after {
     content: ' }';
+}
+
+@media (max-width: 1024px) {
+
+    .left-infos p {
+        font-size: 24px;
+    }
+
+    .about-infos p {
+        font-size: $text-size;
+    }
+
+    .about-infos h3 {
+        font-size: $medium-size;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .text-infos {
+        width: 100%;
+    }
+
+    .left-infos p, .right-infos p {
+        font-size: 18px;
+    }
+
+    .self-description .right-infos p {
+        font-size: 1rem;
+    }
+
+    .self-description .right-infos p {
+        font-size: 1.2rem;
+    }
 }

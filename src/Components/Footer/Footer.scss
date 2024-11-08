@@ -21,3 +21,14 @@ footer p {
 .active {
     color: $blue-text;
 }
+
+@media (max-width: 768px) {
+
+    .infos, .double-slash {
+        display: none;
+    }
+
+    nav {
+        gap: 10px;
+    }
+}

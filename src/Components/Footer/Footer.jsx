@@ -25,14 +25,11 @@ const Footer = () => {
             case '/portfolio':
                 navLinks[2].classList.add('active');
                 break;
-            case '/services':
+            case '/resume':
                 navLinks[3].classList.add('active');
                 break;
-            case '/resume':
-                navLinks[4].classList.add('active');
-                break;
             case '/contact':
-                navLinks[5].classList.add('active');
+                navLinks[4].classList.add('active');
                 break;
             default: break;
         }
@@ -44,7 +41,6 @@ const Footer = () => {
                 <Link className="foot-nav-link" to="/home">_accueil</Link>
                 <Link className="foot-nav-link" to="/about">_a_propos</Link>
                 <Link className="foot-nav-link" to="/portfolio">_portfolio</Link>
-                <Link className="foot-nav-link" to="/services">_services</Link>
                 <Link className="foot-nav-link" to="/resume">_experience</Link>
                 <Link className="foot-nav-link" to="/contact">_contact</Link>
             </nav>

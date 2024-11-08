@@ -1,12 +1,20 @@
-const ContactPage = () => {
+import { useLocation } from 'react-router-dom';
+
+const Contact = () => {
+
+    const location = useLocation();
+    const showDiv = location.pathname !== '/contact';
+
     return (
         <section className="contact">
+            {showDiv && (
             <div className="upper-infos">
                 <p className="spacing">/</p>
                 <h2>contact</h2>
             </div>
+            )}
             <div className="formulaire">
-                <form action="https://formspree.io/f/your-form-id" method="POST">
+                <form action="https://formspree.io/f/xovqdypo" method="POST">
                     <label htmlFor="name">_nom* :</label>
                     <input type="text" id="name" name="name" required />
 
@@ -23,4 +31,4 @@ const ContactPage = () => {
     );
 }
 
-export default ContactPage;
+export default Contact;

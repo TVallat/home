@@ -29,7 +29,7 @@ const Home = () => {
                     <p>je suis a la recherche d'un premier emploi</p>
                     <p>dans le secteur</p>
                 </div>
-                <div className="lower-infos">
+                <div className="lower-infos self-description">
                     <div className="text-infos">
                         <div className="left-infos">
                             <p>...Developpeur web <span>fullstack</span> debutant avec une connaissance solide de
@@ -41,9 +41,9 @@ const Home = () => {
                         </div>
                         <div className="right-infos">
                             <p>...Je suis un debutant curieux et determine a approfondir mes competences dans la creation d'applications
-                                completes. J'adore explorer de nouvelles technologies comme JavaScript, React et Node.js,
-                                et je suis toujours a la recherche de nouvelles opportunites pour apprendre et m'ameliorer.
-                                Je souhaite a l'avenir me tourner vers la Programmation Oriente Objet, plus particulierement avec le language C#.
+                                completes.<br /> J'adore explorer de nouvelles technologies comme JavaScript, React et Node.js,
+                                et je suis toujours a la recherche de nouvelles opportunites pour apprendre et m'ameliorer. <br />
+                                Je souhaite a l'avenir me tourner vers la Programmation Orientee Objet, plus particulierement avec le language C#.<br />
                                 Au-dela du code, j'apprecie les defis qui me poussent a trouver des solutions creatives et a evoluer.
                             </p>
                         </div>

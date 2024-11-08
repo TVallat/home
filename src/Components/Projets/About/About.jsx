@@ -13,7 +13,7 @@ const AboutPage = () => {
                     <p>je suis a la recherche d'un premier emploi</p>
                     <p>dans le secteur</p>
                 </div>
-                <div className="lower-infos">
+                <div className="lower-infos self-description">
                     <div className="text-infos">
                         <div className="left-infos">
                             <p>...Developpeur web <span>fullstack</span> debutant avec une connaissance solide de
@@ -55,7 +55,7 @@ const AboutPage = () => {
                         <div className="left-infos">
                             <p className="spacing">#</p>
                             <h3>_polyvalent</h3>
-                            <p>...Ma polyvalence me permet d’intervenir sur differents aspects des projets,
+                            <p>...Ma polyvalence me permet d'intervenir sur differents aspects des projets,
                                 que ce soit en front-end, back-end ou encore dans la gestion des bases de donnees.</p>
                         </div>
                         <div className="right-infos">
